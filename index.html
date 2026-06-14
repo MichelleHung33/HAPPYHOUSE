@@ -663,7 +663,7 @@ ${contextText}
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
         contents: [{ role: "user", parts: [{ text: query }] }],
-        systemInstruction: { parts: [{ text: systemPrompt }] }
+        system_instruction: { parts: [{ text: systemPrompt }] }
       })
     });
 
